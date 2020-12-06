@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(216, 211, 211, 0.609);
+}
+
+
+header {
+    background-color: #343a40;
+}
+
+main {
+    width: 40vw !important;
+} 
+
+@media (max-width: 720px) {
+    main {
+        width: 80vw !important;
+    }
+
+}
